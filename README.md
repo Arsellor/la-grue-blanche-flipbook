@@ -4,7 +4,7 @@ Flipbook musical interactif et responsive conçu comme une expérience visuelle 
 
 ## Site en ligne
 
-[Ouvrir le site publié sur GitHub Pages](https://arsellor.github.io/la-grue-blanche-flipbook/)
+[Ouvrir le site publié sur GitHub Pages](https://arsellor.github.io/la-grue-blanche-flipbook/index.html)
 
 ## Points techniques
 
