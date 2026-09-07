@@ -1,12 +1,16 @@
-# La Grue blanche — Flipbook musical
+# La Grue Blanche — Flip book audio numérique interactif
 
-Flipbook interactif conçu comme une expérience visuelle immersive pour un portfolio web.
+Flipbook musical interactif et responsive conçu comme une expérience visuelle immersive pour un portfolio web.
+
+## Site en ligne
+
+[Ouvrir le site publié sur GitHub Pages](https://arsellor.github.io/la-grue-blanche-flipbook/)
 
 ## Points techniques
 
-- HTML5 sémantique (`main`, `section`, `header`, `article`, `figure`, `nav`, `footer`)
+- HTML5 sémantique
 - Responsive mobile, tablette et desktop
-- Accessibilité : libellés ARIA, lien d'évitement, navigation clavier
+- Accessibilité : libellés ARIA, lien d’évitement et navigation clavier
 - Animation de pages avec PageFlip
 - Audio HTML5 natif
 - Images optimisées avec chargement différé
@@ -16,4 +20,4 @@ Flipbook interactif conçu comme une expérience visuelle immersive pour un port
 
 Ouvrir `flipbook.html` dans un navigateur moderne.
 
-> Pour une publication GitHub Pages, le projet peut être déployé directement depuis la branche contenant ces fichiers.
+GitHub Pages est configuré depuis la branche `main` et la racine du dépôt.
