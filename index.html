@@ -9,7 +9,6 @@
 </head>
 <body>
   <a class="skip-link" href="#flipbook">Aller au flipbook</a>
-
   <main class="experience" id="main-content">
     <section class="flipbook-stage" aria-labelledby="flipbook-title">
       <header class="experience-header">
@@ -17,13 +16,11 @@
           <p class="eyebrow">EXPÉRIENCE INTERACTIVE</p>
           <h1 id="flipbook-title">La Grue blanche</h1>
         </div>
-
         <audio class="floating-audio" controls preload="metadata" aria-label="Bande sonore du flipbook">
-          <source src="css/assets/musique/POLO%20%26%20PAN%20%23U2014%20Ani%20Kuni.mp3" type="audio/mpeg">
+          <source src="css/assets/musique/audio.mp3" type="audio/mpeg">
           Votre navigateur ne prend pas en charge l'audio HTML5.
         </audio>
       </header>
-
       <div class="book-area">
         <div class="book-shadow" aria-hidden="true"></div>
         <div id="flipbook" class="book" aria-label="Flipbook La Grue blanche">
@@ -40,22 +37,16 @@
           <article class="page page-cover" data-density="hard"><figure><img src="css/assets/page11.jpg" alt="Dernière page du livre illustré" loading="lazy"></figure></article>
         </div>
       </div>
-
       <nav class="book-controls" aria-label="Navigation du flipbook">
         <button id="prevBtn" type="button" aria-label="Page précédente">‹</button>
         <output id="counter" aria-live="polite">1 / 11</output>
         <button id="nextBtn" type="button" aria-label="Page suivante">›</button>
       </nav>
-
       <p class="interaction-hint">Balayez ou utilisez les flèches pour tourner les pages.</p>
     </section>
   </main>
-
-  <footer class="portfolio-footer">
-    <p>Projet portfolio · HTML5 sémantique · CSS responsive · JavaScript</p>
-  </footer>
-
+  <footer class="portfolio-footer"><p>Projet portfolio · HTML5 sémantique · CSS responsive · JavaScript</p></footer>
   <script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
   <script src="flipbook.js"></script>
 </body>
-</html>
+  </html>
